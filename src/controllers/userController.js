@@ -30,7 +30,7 @@ const getListUsersController = (req, res, next) => {
 
 // const deleteUserByIdController = (req, res, next) => {
 //     try {
-//         const {userId} = req.params;
+//         const { userId } = req.params;
 //         const result = deleteUserByIdService(userId);
 //         res.json({
 //             message: "Success Delete User",
@@ -44,5 +44,5 @@ const getListUsersController = (req, res, next) => {
 export {
     createUserController,
     getListUsersController,
-    deleteUserByIdController
+    // deleteUserByIdController
 }
