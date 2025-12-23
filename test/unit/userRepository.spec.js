@@ -1,5 +1,5 @@
 import { database } from "../../src/database/database.js";
-// import { ResponseError } from "../../src/error/responseError.js";
+import { ResponseError } from "../../src/error/responseError.js";
 import { createUserRepository, deleteUserByIdRepository, getListUsersRepository } from "../../src/repositories/userRepository.js";
 
 describe("User Repository", () => {
